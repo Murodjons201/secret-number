@@ -26,10 +26,10 @@ elCheck.addEventListener("click", function () {
 
     if (score > highScore) {
       highScore = score;
-      elHighScore.textContent = highScore;
+      elHighScore.textContent = 11 - highScore;
     } else {
       highScore = score;
-      elHighScore.textContent = highScore;
+      elHighScore.textContent = 11 - highScore;
     }
 
     elCheck.disabled = true;
