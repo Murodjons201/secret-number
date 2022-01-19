@@ -27,7 +27,11 @@ elCheck.addEventListener("click", function () {
     if (score > highScore) {
       highScore = score;
       elHighScore.textContent = highScore;
+    } else {
+      highScore = score;
+      elHighScore.textContent = highScore;
     }
+
     elCheck.disabled = true;
   } else if (elGuessInputValue > secretNumber) {
     elMessage.textContent = "Bu raqam katta!!!";
